@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B0F0D"/>
+      <stop offset="100%" stop-color="#121A16"/>
+    </linearGradient>
+    <linearGradient id="emeraldGrad4" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10B981"/>
+      <stop offset="100%" stop-color="#6EE7B7"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="500" fill="url(#bgGrad4)"/>
+  <rect x="1" y="1" width="798" height="498" rx="12" fill="none" stroke="#24332B" stroke-width="2"/>
+
+  <!-- Window Container -->
+  <rect x="40" y="35" width="720" height="430" rx="12" fill="#121A16" stroke="#24332B" stroke-width="1.5"/>
+  <path d="M40 35 h720 v45 h-720 z" fill="#0B0F0D"/>
+  <line x1="40" y1="80" x2="760" y2="80" stroke="#24332B" stroke-width="1"/>
+
+  <!-- Dots -->
+  <circle cx="65" cy="58" r="6" fill="#FF5F56"/>
+  <circle cx="85" cy="58" r="6" fill="#FFBD2E"/>
+  <circle cx="105" cy="58" r="6" fill="#27C93F"/>
+  <text x="130" y="63" fill="#A7B0AA" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="500">Mahi Patel • Developer Portfolio</text>
+
+  <!-- Mini Navbar preview -->
+  <rect x="60" y="95" width="680" height="40" rx="8" fill="#16221D" stroke="#24332B"/>
+  <text x="80" y="120" fill="#6EE7B7" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700">&lt;Mahi Patel/&gt;</text>
+  <text x="430" y="120" fill="#10B981" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600">Home</text>
+  <text x="475" y="120" fill="#A7B0AA" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11">About</text>
+  <text x="520" y="120" fill="#A7B0AA" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11">Skills</text>
+  <text x="560" y="120" fill="#A7B0AA" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11">Projects</text>
+  <rect x="620" y="103" width="105" height="24" rx="4" fill="url(#emeraldGrad4)"/>
+  <text x="640" y="119" fill="#0B0F0D" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="700">Resume</text>
+
+  <!-- Hero preview inside -->
+  <text x="80" y="180" fill="#10B981" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="600">Hi, I'm Mahi Patel 👋</text>
+  <text x="80" y="220" fill="#F5F5F5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="24" font-weight="700">IT Student &amp; Aspiring</text>
+  <text x="80" y="255" fill="#6EE7B7" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="24" font-weight="700">Full-Stack Developer</text>
+  <text x="80" y="290" fill="#A7B0AA" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12">Building responsive web apps &amp; exploring AI solutions.</text>
+
+  <!-- Buttons -->
+  <rect x="80" y="320" width="120" height="34" rx="6" fill="url(#emeraldGrad4)"/>
+  <text x="100" y="342" fill="#0B0F0D" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700">View Projects</text>
+  <rect x="210" y="320" width="120" height="34" rx="6" fill="#0B0F0D" stroke="#24332B"/>
+  <text x="235" y="342" fill="#F5F5F5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11">Get in Touch</text>
+
+  <!-- Right code card inside -->
+  <rect x="440" y="170" width="300" height="240" rx="10" fill="#0B0F0D" stroke="#24332B"/>
+  <text x="460" y="200" fill="#10B981" font-family="'Courier New', Courier, monospace" font-size="12">const developer = {</text>
+  <text x="475" y="225" fill="#A7B0AA" font-family="'Courier New', Courier, monospace" font-size="11">name: <tspan fill="#6EE7B7">'Mahi Patel'</tspan>,</text>
+  <text x="475" y="250" fill="#A7B0AA" font-family="'Courier New', Courier, monospace" font-size="11">role: <tspan fill="#6EE7B7">'Full-Stack Dev'</tspan>,</text>
+  <text x="475" y="275" fill="#A7B0AA" font-family="'Courier New', Courier, monospace" font-size="11">degree: <tspan fill="#6EE7B7">'Integrated M.Sc. IT'</tspan>,</text>
+  <text x="475" y="300" fill="#A7B0AA" font-family="'Courier New', Courier, monospace" font-size="11">location: <tspan fill="#6EE7B7">'Gujarat, India'</tspan>,</text>
+  <text x="475" y="325" fill="#A7B0AA" font-family="'Courier New', Courier, monospace" font-size="11">passion: <tspan fill="#6EE7B7">['Web', 'AI', 'Python']</tspan>,</text>
+  <text x="475" y="350" fill="#A7B0AA" font-family="'Courier New', Courier, monospace" font-size="11">openForWork: <tspan fill="#10B981">true</tspan></text>
+  <text x="460" y="375" fill="#10B981" font-family="'Courier New', Courier, monospace" font-size="12">};</text>
+</svg>

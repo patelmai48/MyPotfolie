@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="portBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#14201A"/>
+      <stop offset="100%" stop-color="#0C1410"/>
+    </linearGradient>
+    <linearGradient id="emGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10B981"/>
+      <stop offset="100%" stop-color="#6EE7B7"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="400" height="500" rx="20" fill="url(#portBg)"/>
+  <rect x="2" y="2" width="396" height="496" rx="18" fill="none" stroke="#24332B" stroke-width="2"/>
+
+  <!-- Subtle grid pattern -->
+  <g opacity="0.1" stroke="#10B981" stroke-width="1">
+    <line x1="0" y1="100" x2="400" y2="100"/>
+    <line x1="0" y1="200" x2="400" y2="200"/>
+    <line x1="0" y1="300" x2="400" y2="300"/>
+    <line x1="0" y1="400" x2="400" y2="400"/>
+    <line x1="100" y1="0" x2="100" y2="500"/>
+    <line x1="200" y1="0" x2="200" y2="500"/>
+    <line x1="300" y1="0" x2="300" y2="500"/>
+  </g>
+
+  <!-- Developer Silhouette / Monogram Portrait -->
+  <circle cx="200" cy="190" r="70" fill="#0B0F0D" stroke="#24332B" stroke-width="2"/>
+  <circle cx="200" cy="190" r="66" fill="none" stroke="#10B981" stroke-opacity="0.35" stroke-width="1.5"/>
+  <text x="200" y="204" text-anchor="middle" fill="#6EE7B7" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="38" font-weight="800" letter-spacing="1">MP</text>
+
+  <!-- Torso contour -->
+  <path d="M100 370 C 100 290, 300 290, 300 370 Z" fill="#0B0F0D" stroke="#24332B" stroke-width="2"/>
+  <path d="M100 370 C 100 290, 300 290, 300 370 Z" fill="none" stroke="#10B981" stroke-opacity="0.2" stroke-width="1.5"/>
+
+  <!-- Ready to replace badge -->
+  <g transform="translate(200, 420)">
+    <rect x="-110" y="-18" width="220" height="36" rx="18" fill="#121A16" stroke="#10B981" stroke-width="1.2"/>
+    <circle cx="-90" cy="0" r="4" fill="#10B981"/>
+    <text x="-75" y="5" fill="#F5F5F5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600">Mahi Patel • Profile Photo</text>
+  </g>
+</svg>

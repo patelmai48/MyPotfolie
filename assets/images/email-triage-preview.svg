@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGradAI" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B0F0D"/>
+      <stop offset="100%" stop-color="#121A16"/>
+    </linearGradient>
+    <linearGradient id="emeraldGradAI" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10B981"/>
+      <stop offset="100%" stop-color="#6EE7B7"/>
+    </linearGradient>
+    <linearGradient id="cardGradAI" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#15211B"/>
+      <stop offset="100%" stop-color="#0E1612"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="500" fill="url(#bgGradAI)"/>
+  <rect x="1" y="1" width="798" height="498" rx="12" fill="none" stroke="#24332B" stroke-width="2"/>
+
+  <!-- Window Container -->
+  <rect x="40" y="35" width="720" height="430" rx="12" fill="url(#cardGradAI)" stroke="#24332B" stroke-width="1.5"/>
+  <path d="M40 35 h720 v45 h-720 z" fill="#121A16"/>
+  <line x1="40" y1="80" x2="760" y2="80" stroke="#24332B" stroke-width="1"/>
+
+  <!-- Window dots -->
+  <circle cx="65" cy="58" r="6" fill="#FF5F56"/>
+  <circle cx="85" cy="58" r="6" fill="#FFBD2E"/>
+  <circle cx="105" cy="58" r="6" fill="#27C93F"/>
+  <text x="130" y="63" fill="#A7B0AA" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="500">AI Email Triage Agent • Automated Gmail &amp; Slack Pipeline</text>
+
+  <!-- Status pill -->
+  <rect x="620" y="50" width="115" height="22" rx="11" fill="#10B981" fill-opacity="0.15" stroke="#10B981" stroke-opacity="0.4"/>
+  <circle cx="635" cy="61" r="3.5" fill="#10B981"/>
+  <text x="645" y="65" fill="#6EE7B7" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600">AGENT LIVE</text>
+
+  <!-- Left: Pipeline diagram & stats -->
+  <rect x="65" y="105" width="280" height="330" rx="8" fill="#0B0F0D" stroke="#24332B" stroke-width="1"/>
+  <text x="85" y="135" fill="#F5F5F5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600">Triage Pipeline Status</text>
+
+  <!-- Flow Steps -->
+  <rect x="85" y="155" width="240" height="42" rx="6" fill="#16221D" stroke="#24332B"/>
+  <text x="100" y="180" fill="#6EE7B7" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600">📥 1. Gmail API Ingestion</text>
+
+  <rect x="85" y="210" width="240" height="42" rx="6" fill="#16221D" stroke="#10B981" stroke-opacity="0.5"/>
+  <text x="100" y="235" fill="#6EE7B7" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600">⚡ 2. Google Gemini Classifier</text>
+
+  <rect x="85" y="265" width="240" height="42" rx="6" fill="#16221D" stroke="#24332B"/>
+  <text x="100" y="290" fill="#6EE7B7" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600">💾 3. SQLite Storage &amp; Logs</text>
+
+  <rect x="85" y="320" width="240" height="42" rx="6" fill="#16221D" stroke="#24332B"/>
+  <text x="100" y="345" fill="#6EE7B7" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600">🔔 4. Slack Webhook Alerts</text>
+
+  <rect x="85" y="380" width="240" height="34" rx="6" fill="url(#emeraldGradAI)"/>
+  <text x="125" y="402" fill="#0B0F0D" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700">GitHub Actions: Scheduled</text>
+
+  <!-- Right: Real-time triage log table -->
+  <rect x="365" y="105" width="365" height="330" rx="8" fill="#0B0F0D" stroke="#24332B" stroke-width="1"/>
+  <text x="385" y="135" fill="#F5F5F5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600">Classified Email Queue</text>
+
+  <!-- Header -->
+  <rect x="380" y="150" width="335" height="26" rx="4" fill="#16221D"/>
+  <text x="390" y="167" fill="#A7B0AA" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600">SUBJECT</text>
+  <text x="560" y="167" fill="#A7B0AA" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600">CLASSIFICATION</text>
+  <text x="660" y="167" fill="#A7B0AA" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600">ACTION</text>
+
+  <!-- Row 1 -->
+  <text x="390" y="198" fill="#F5F5F5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="500">Urgent: Server Health Alert</text>
+  <rect x="555" y="186" width="65" height="16" rx="8" fill="#EF4444" fill-opacity="0.2"/>
+  <text x="565" y="198" fill="#F87171" font-size="9" font-weight="bold">CRITICAL</text>
+  <text x="660" y="198" fill="#6EE7B7" font-size="10">Slack Ping 🔔</text>
+  <line x1="380" y1="214" x2="715" y2="214" stroke="#24332B" stroke-width="0.8"/>
+
+  <!-- Row 2 -->
+  <text x="390" y="240" fill="#F5F5F5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="500">Software Intern Interview</text>
+  <rect x="555" y="228" width="65" height="16" rx="8" fill="#10B981" fill-opacity="0.2"/>
+  <text x="568" y="240" fill="#6EE7B7" font-size="9" font-weight="bold">HIGH PRIO</text>
+  <text x="660" y="240" fill="#6EE7B7" font-size="10">Slack Ping 🔔</text>
+  <line x1="380" y1="256" x2="715" y2="256" stroke="#24332B" stroke-width="0.8"/>
+
+  <!-- Row 3 -->
+  <text x="390" y="282" fill="#F5F5F5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="500">Weekly Tech Newsletter</text>
+  <rect x="555" y="270" width="65" height="16" rx="8" fill="#3B82F6" fill-opacity="0.2"/>
+  <text x="573" y="282" fill="#60A5FA" font-size="9" font-weight="bold">INFO</text>
+  <text x="660" y="282" fill="#A7B0AA" font-size="10">Archived 📁</text>
+  <line x1="380" y1="298" x2="715" y2="298" stroke="#24332B" stroke-width="0.8"/>
+
+  <!-- Row 4 -->
+  <text x="390" y="324" fill="#F5F5F5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="500">Cloud Bill Notification</text>
+  <rect x="555" y="312" width="65" height="16" rx="8" fill="#F59E0B" fill-opacity="0.2"/>
+  <text x="566" y="324" fill="#FBBF24" font-size="9" font-weight="bold">MEDIUM</text>
+  <text x="660" y="324" fill="#A7B0AA" font-size="10">Logged 💾</text>
+  <line x1="380" y1="340" x2="715" y2="340" stroke="#24332B" stroke-width="0.8"/>
+
+  <!-- Row 5 -->
+  <text x="390" y="366" fill="#F5F5F5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="500">GitHub Security Advisory</text>
+  <rect x="555" y="354" width="65" height="16" rx="8" fill="#EF4444" fill-opacity="0.2"/>
+  <text x="565" y="366" fill="#F87171" font-size="9" font-weight="bold">CRITICAL</text>
+  <text x="660" y="366" fill="#6EE7B7" font-size="10">Slack Ping 🔔</text>
+
+  <!-- Summary bottom bar -->
+  <rect x="380" y="390" width="335" height="30" rx="4" fill="#16221D"/>
+  <text x="395" y="410" fill="#A7B0AA" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10">⚡ Filtered 48 emails • 0 false positives</text>
+</svg>

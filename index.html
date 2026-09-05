@@ -1,0 +1,1317 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+  <!-- SEO & Social Sharing Metadata -->
+  <title>Mahi Patel | Integrated M.Sc. IT &amp; Full-Stack Developer</title>
+  <meta name="description" content="Personal developer portfolio of Mahi Patel, Integrated M.Sc. IT student and Full-Stack Developer in Gujarat, India. Skilled in Python, Flask, React, SQLite, Cloud & AI.">
+  <meta name="keywords" content="Mahi Patel, Full-Stack Developer, Web Developer, Python, Flask, React, SQLite, AI Developer, Gujarat, India">
+  <meta name="author" content="Mahi Patel">
+  <meta name="theme-color" content="#0B0F0D">
+
+  <!-- Open Graph / Social Card -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Mahi Patel | Integrated M.Sc. IT &amp; Full-Stack Developer">
+  <meta property="og:description" content="I build clean, responsive web applications and explore AI-powered solutions using Python, Flask, modern frontend technologies, and cloud automation.">
+  <meta property="og:image" content="assets/images/portfolio-preview.svg">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/responsive.css">
+
+  <!-- Theme Initialization Script -->
+  <script src="js/theme.js"></script>
+</head>
+<body>
+
+  <!-- =========================================================================
+       NAVIGATION BAR
+       ========================================================================= -->
+  <header class="navbar" id="navbar">
+    <div class="container navbar-inner">
+      <!-- Brand Logo -->
+      <a href="#home" class="navbar-brand" aria-label="Mahi Patel Homepage">
+        <span class="brand-bracket">&lt;</span>
+        <span>Mahi Patel</span>
+        <span class="brand-bracket">/&gt;</span>
+        <span class="brand-dot"></span>
+      </a>
+
+      <!-- Navigation Links -->
+      <nav aria-label="Primary Navigation">
+        <ul class="navbar-nav" id="navbarNav">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#experience" class="nav-link">Experience</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#certificates" class="nav-link">Certificates</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Right Actions: Theme Toggle & Resume CTA -->
+      <div class="navbar-actions">
+        <!-- Light / Dark Theme Switcher -->
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle light and dark theme">
+          <!-- Sun Icon (Shown in Dark Mode) -->
+          <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+          <!-- Moon Icon (Shown in Light Mode) -->
+          <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+
+        <!-- Resume Button -->
+        <a href="resume/MahiPatel_CV.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm" aria-label="View Resume">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+            <polyline points="14 2 14 8 20 8"></polyline>
+            <line x1="16" y1="13" x2="8" y2="13"></line>
+            <line x1="16" y1="17" x2="8" y2="17"></line>
+          </svg>
+          <span>View Resume</span>
+        </a>
+
+        <!-- Mobile Hamburger Toggle -->
+        <button class="mobile-nav-toggle" id="mobileNavToggle" aria-label="Open mobile navigation menu" aria-expanded="false">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- =======================================================================
+         1. HERO SECTION
+         ======================================================================= -->
+    <section class="hero-section" id="home">
+      <div class="ambient-glow hero-glow-1"></div>
+      <div class="ambient-glow hero-glow-2"></div>
+
+      <div class="container">
+        <div class="hero-grid">
+          <!-- Left Column: Introduction & CTA -->
+          <div class="hero-content reveal">
+            <div class="hero-intro">
+              <span>👋</span>
+              <span>Hi, I'm Mahi Patel</span>
+            </div>
+
+            <h1 class="hero-title">
+              IT Student &amp; Aspiring <span class="gradient-text">Full-Stack Developer</span>
+            </h1>
+
+            <p class="hero-description">
+              I build clean, responsive web applications and explore AI-powered solutions using Python, Flask, modern frontend technologies, and cloud automation.
+            </p>
+
+            <!-- Action Buttons -->
+            <div class="hero-buttons">
+              <a href="#projects" class="btn btn-primary btn-lg">
+                <span>View My Projects</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </a>
+
+              <a href="resume/MahiPatel_CV.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-lg" aria-label="View Resume">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                  <polyline points="14 2 14 8 20 8"></polyline>
+                  <line x1="16" y1="13" x2="8" y2="13"></line>
+                  <line x1="16" y1="17" x2="8" y2="17"></line>
+                </svg>
+                <span>View Resume</span>
+              </a>
+            </div>
+
+            <!-- Opportunity Status Pill -->
+            <div class="hero-status-pill">
+              <span class="status-pulse"></span>
+              <span>Currently looking for internships &amp; entry-level opportunities</span>
+            </div>
+
+            <!-- Social Links -->
+            <div class="hero-socials">
+              <span class="social-label">Connect:</span>
+              
+              <!-- GitHub -->
+              <a href="https://github.com/patelmai48" target="_blank" rel="noopener noreferrer" class="btn-icon" aria-label="Mahi Patel's GitHub Profile" title="GitHub Profile">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                </svg>
+              </a>
+
+              <!-- LinkedIn -->
+              <a href="https://linkedin.com/in/mahi-patel-865b97318" target="_blank" rel="noopener noreferrer" class="btn-icon" aria-label="Mahi Patel's LinkedIn Profile" title="LinkedIn Profile">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                  <rect x="2" y="9" width="4" height="12"></rect>
+                  <circle cx="4" cy="4" r="2"></circle>
+                </svg>
+              </a>
+
+              <!-- LeetCode -->
+              <a href="https://leetcode.com/u/mai_15" target="_blank" rel="noopener noreferrer" class="btn-icon" aria-label="Mahi Patel's LeetCode Profile" title="LeetCode Profile (mai_15)">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M13.483 0a1.374 1.374 0 0 0-.961.438L7.116 6.226l-3.854 4.126a5.266 5.266 0 0 0-1.209 2.104 5.35 5.35 0 0 0-.125.513 5.527 5.527 0 0 0 .062 2.362 5.83 5.83 0 0 0 .349 1.017 5.938 5.938 0 0 0 1.271 1.818l4.277 4.193.039.038c2.248 2.165 5.852 2.133 8.063-.074l2.396-2.392c.54-.54.54-1.414.003-1.955a1.378 1.378 0 0 0-1.951-.003l-2.396 2.392a3.021 3.021 0 0 1-4.205.038l-.02-.019-4.276-4.193c-.652-.64-.972-1.469-.948-2.263a2.68 2.68 0 0 1 .666-1.795l3.86-4.133 5.398-5.783a1.377 1.377 0 0 0-.005-1.952A1.374 1.374 0 0 0 13.483 0zm-2.88 7.218a1.38 1.38 0 0 0-1.208.707 1.381 1.381 0 0 0 .238 1.636l4.269 4.269a1.379 1.379 0 0 0 1.951 0 1.38 1.38 0 0 0 0-1.951l-4.269-4.269a1.365 1.365 0 0 0-.981-.392z"/>
+                </svg>
+              </a>
+
+              <!-- Email -->
+              <a href="mailto:patelmai82@gmail.com" class="btn-icon" aria-label="Send Email to Mahi Patel" title="Send Email (patelmai82@gmail.com)">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                  <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- Right Column: Developer Photo / Visual Area -->
+          <div class="hero-visual reveal delay-2">
+            <div class="hero-photo-card">
+              <!-- Personal profile photo of Mahi Patel -->
+              <img src="assets/images/mahi.jpg" onerror="this.onerror=null; this.src='public/images/mahi.jpg';" alt="Mahi Patel - Full-Stack Developer Profile Photo" class="hero-photo-img" width="340" height="430" loading="eager">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         2. ABOUT ME
+         ======================================================================= -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Background</span>
+          <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+        </div>
+
+        <div class="about-grid">
+          <!-- Bio Text (Directly aligned with CV Summary) -->
+          <div class="about-text reveal">
+            <p>
+              I'm an <strong>Integrated M.Sc. Information Technology</strong> student with strong full-stack web development skills and a passion for applied AI/ML and modern software engineering.
+            </p>
+            <p>
+              Experienced in designing and deploying end-to-end web applications using <strong>Python, Flask, SQLite</strong>, and modern responsive frontend technologies. Skilled in database design, backend logic, and automation using AI-powered tools.
+            </p>
+            <p>
+              My core focus areas include full-stack web development, cloud computing, network security, Generative AI integration, and building practical problem-solving tools.
+            </p>
+            <p>
+              I'm currently seeking internship and entry-level opportunities where I can apply my technical expertise, learn from experienced teams, and contribute to impactful software products.
+            </p>
+          </div>
+
+          <!-- Quick Facts Card -->
+          <div class="quick-facts-card reveal delay-1">
+            <h3 class="quick-facts-title">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#10B981" stroke-width="2">
+                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+              </svg>
+              <span>Quick Facts</span>
+            </h3>
+
+            <ul class="facts-list">
+              <!-- Education -->
+              <li class="fact-item">
+                <div class="fact-icon">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                    <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+                  </svg>
+                </div>
+                <div class="fact-content">
+                  <span class="fact-label">Education</span>
+                  <span class="fact-value">Integrated M.Sc. IT (2024–2029)</span>
+                </div>
+              </li>
+
+              <!-- Focus -->
+              <li class="fact-item">
+                <div class="fact-icon">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="16 18 22 12 16 6"></polyline>
+                    <polyline points="8 6 2 12 8 18"></polyline>
+                  </svg>
+                </div>
+                <div class="fact-content">
+                  <span class="fact-label">Focus</span>
+                  <span class="fact-value">Full-Stack Web Dev &amp; Applied AI</span>
+                </div>
+              </li>
+
+              <!-- Interests -->
+              <li class="fact-item">
+                <div class="fact-icon">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <line x1="12" y1="16" x2="12" y2="12"></line>
+                    <line x1="12" y1="8" x2="12.01" y2="8"></line>
+                  </svg>
+                </div>
+                <div class="fact-content">
+                  <span class="fact-label">Interests</span>
+                  <span class="fact-value">AI • Cloud &amp; Security • Python</span>
+                </div>
+              </li>
+
+              <!-- Location -->
+              <li class="fact-item">
+                <div class="fact-icon">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                    <circle cx="12" cy="10" r="3"></circle>
+                  </svg>
+                </div>
+                <div class="fact-content">
+                  <span class="fact-label">Location</span>
+                  <span class="fact-value">Gujarat, India</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         3. SKILLS SECTION (FROM CV)
+         ======================================================================= -->
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Technical Toolkit</span>
+          <h2 class="section-title">My <span class="gradient-text">Skills</span></h2>
+          <p class="section-subtitle">Technologies, frameworks, databases, and core concepts from my verified CV.</p>
+        </div>
+
+        <div class="skills-grid">
+          <!-- 1. Languages & Frontend -->
+          <div class="skill-category-card reveal">
+            <div class="skill-header">
+              <div class="skill-category-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                  <polyline points="2 17 12 22 22 17"></polyline>
+                  <polyline points="2 12 12 17 22 12"></polyline>
+                </svg>
+              </div>
+              <h3 class="skill-category-title">Languages &amp; Frontend</h3>
+            </div>
+            <div class="skill-badges">
+              <div class="skill-badge"><span class="skill-badge-icon">⚡</span> Python</div>
+              <div class="skill-badge"><span class="skill-badge-icon">⚡</span> Java</div>
+              <div class="skill-badge"><span class="skill-badge-icon">⚡</span> JavaScript</div>
+              <div class="skill-badge"><span class="skill-badge-icon">⚡</span> HTML5</div>
+              <div class="skill-badge"><span class="skill-badge-icon">⚡</span> CSS3</div>
+              <div class="skill-badge"><span class="skill-badge-icon">⚡</span> React.js</div>
+              <div class="skill-badge"><span class="skill-badge-icon">⚡</span> Jinja</div>
+            </div>
+          </div>
+
+          <!-- 2. Backend & Databases -->
+          <div class="skill-category-card reveal delay-1">
+            <div class="skill-header">
+              <div class="skill-category-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect>
+                  <rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect>
+                  <line x1="6" y1="6" x2="6.01" y2="6"></line>
+                  <line x1="6" y1="18" x2="6.01" y2="18"></line>
+                </svg>
+              </div>
+              <h3 class="skill-category-title">Backend &amp; Databases</h3>
+            </div>
+            <div class="skill-badges">
+              <div class="skill-badge"><span class="skill-badge-icon">⚡</span> Flask</div>
+              <div class="skill-badge"><span class="skill-badge-icon">⚡</span> SQLite</div>
+              <div class="skill-badge"><span class="skill-badge-icon">⚡</span> JWT Auth</div>
+              <div class="skill-badge"><span class="skill-badge-icon">⚡</span> CRUD Operations</div>
+              <div class="skill-badge"><span class="skill-badge-icon">⚡</span> Git &amp; GitHub</div>
+              <div class="skill-badge"><span class="skill-badge-icon">⚡</span> VS Code</div>
+            </div>
+          </div>
+
+          <!-- 3. Applied AI & Data Analytics -->
+          <div class="skill-category-card reveal delay-2">
+            <div class="skill-header">
+              <div class="skill-category-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <line x1="12" y1="16" x2="12" y2="12"></line>
+                  <line x1="12" y1="8" x2="12.01" y2="8"></line>
+                </svg>
+              </div>
+              <h3 class="skill-category-title">Applied AI &amp; Analytics</h3>
+            </div>
+            <div class="skill-badges">
+              <div class="skill-badge"><span class="skill-badge-icon">⚡</span> Generative AI</div>
+              <div class="skill-badge"><span class="skill-badge-icon">⚡</span> Prompt Engineering</div>
+              <div class="skill-badge"><span class="skill-badge-icon">⚡</span> EDA Analysis</div>
+              <div class="skill-badge"><span class="skill-badge-icon">⚡</span> Data Analytics</div>
+              <div class="skill-badge"><span class="skill-badge-icon">⚡</span> Data Visualization</div>
+              <div class="skill-badge"><span class="skill-badge-icon">⚡</span> Power BI</div>
+            </div>
+          </div>
+
+          <!-- 4. Cloud, Security & Automation -->
+          <div class="skill-category-card reveal delay-3">
+            <div class="skill-header">
+              <div class="skill-category-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                </svg>
+              </div>
+              <h3 class="skill-category-title">Cloud, Security &amp; APIs</h3>
+            </div>
+            <div class="skill-badges">
+              <div class="skill-badge"><span class="skill-badge-icon">⚡</span> Cloud (IaaS/PaaS/SaaS)</div>
+              <div class="skill-badge"><span class="skill-badge-icon">⚡</span> Network Security</div>
+              <div class="skill-badge"><span class="skill-badge-icon">⚡</span> Risk Assessment</div>
+              <div class="skill-badge"><span class="skill-badge-icon">⚡</span> Gmail API &amp; OAuth2</div>
+              <div class="skill-badge"><span class="skill-badge-icon">⚡</span> Google Gemini AI</div>
+              <div class="skill-badge"><span class="skill-badge-icon">⚡</span> Slack Webhooks</div>
+              <div class="skill-badge"><span class="skill-badge-icon">⚡</span> GitHub Actions</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         4. FEATURED PROJECTS (FROM CV REPOSITORIES)
+         ======================================================================= -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Portfolio Work</span>
+          <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+          <p class="section-subtitle">Real-world applications and automated systems built with Python, Flask, AI, and modern web tools.</p>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1: VoxAI Studio -->
+          <article class="project-card reveal">
+            <div class="project-img-wrapper">
+              <img src="assets/images/voxai-preview.svg" alt="VoxAI Studio Text-to-Speech Preview" class="project-img" loading="lazy">
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">VoxAI Studio</h3>
+              <div class="project-subtitle">AI-powered Text-to-Speech Web Application (Render Deployed)</div>
+              <p class="project-desc">
+                Developed a secure full-stack web application converting text to natural-sounding speech across multiple languages and voices. Features JWT authentication, user analytics dashboard with CSV/PDF export, conversion history, search, and favorites.
+              </p>
+
+              <div class="project-tech-stack">
+                <span class="tech-label">Technologies</span>
+                <div class="tech-tags">
+                  <span class="tech-tag">Flask</span>
+                  <span class="tech-tag">SQLite</span>
+                  <span class="tech-tag">JWT Auth</span>
+                  <span class="tech-tag">gTTS</span>
+                  <span class="tech-tag">JavaScript</span>
+                </div>
+              </div>
+
+              <div class="project-features">
+                <span class="tech-label">Features</span>
+                <div class="feature-tags">
+                  <span class="feature-tag">Multi-Language Audio</span>
+                  <span class="feature-tag">Analytics &amp; PDF Export</span>
+                  <span class="feature-tag">JWT Auth</span>
+                  <span class="feature-tag">Dark/Light Mode</span>
+                </div>
+              </div>
+
+              <div class="project-actions">
+                <a href="https://github.com/patelmai48/Text-To-Speech" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                  </svg>
+                  <span>GitHub Repository</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2: AI Email Triage Agent -->
+          <article class="project-card reveal delay-1">
+            <div class="project-img-wrapper">
+              <img src="assets/images/email-triage-preview.svg" alt="AI Email Triage Agent Preview" class="project-img" loading="lazy">
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">AI Email Triage Agent</h3>
+              <div class="project-subtitle">Automated Gmail &amp; Slack Intelligence Pipeline</div>
+              <p class="project-desc">
+                Automated monitoring of Gmail accounts using rule-based and Gemini AI classifiers to categorize and flag important emails. Integrated Slack webhooks for real-time alerts and scheduled automated CI/CD runs with GitHub Actions.
+              </p>
+
+              <div class="project-tech-stack">
+                <span class="tech-label">Technologies</span>
+                <div class="tech-tags">
+                  <span class="tech-tag">Python</span>
+                  <span class="tech-tag">Gmail API</span>
+                  <span class="tech-tag">Gemini AI</span>
+                  <span class="tech-tag">Slack Webhooks</span>
+                  <span class="tech-tag">GitHub Actions</span>
+                </div>
+              </div>
+
+              <div class="project-features">
+                <span class="tech-label">Features</span>
+                <div class="feature-tags">
+                  <span class="feature-tag">Gemini AI Classifier</span>
+                  <span class="feature-tag">Slack Alerts</span>
+                  <span class="feature-tag">Automated Cron</span>
+                  <span class="feature-tag">Read-only OAuth2</span>
+                </div>
+              </div>
+
+              <div class="project-actions">
+                <a href="https://github.com/patelmai48/smart-email-triage" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                  </svg>
+                  <span>GitHub Repository</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3: Student Registration System -->
+          <article class="project-card reveal delay-2">
+            <div class="project-img-wrapper">
+              <img src="assets/images/student-reg-preview.jpg" onerror="this.onerror=null; this.src='assets/images/student-reg-preview.svg';" alt="Student Registration System Preview" class="project-img" loading="lazy">
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Student Registration System</h3>
+              <div class="project-subtitle">Web Intake &amp; Validation Portal</div>
+              <p class="project-desc">
+                Digitized student intake process by engineering a full-featured registration system with client/server-side validation, reliable SQLite data storage, and structured Flask routing separating frontend and backend logic.
+              </p>
+
+              <div class="project-tech-stack">
+                <span class="tech-label">Technologies</span>
+                <div class="tech-tags">
+                  <span class="tech-tag">Flask</span>
+                  <span class="tech-tag">Python</span>
+                  <span class="tech-tag">SQLite</span>
+                  <span class="tech-tag">HTML5</span>
+                  <span class="tech-tag">CSS3</span>
+                </div>
+              </div>
+
+              <div class="project-features">
+                <span class="tech-label">Features</span>
+                <div class="feature-tags">
+                  <span class="feature-tag">Intake Validation</span>
+                  <span class="feature-tag">Database Persistence</span>
+                  <span class="feature-tag">Flask Routing</span>
+                </div>
+              </div>
+
+              <div class="project-actions">
+                <a href="https://github.com/patelmai48/StudentRegisterProject" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                  </svg>
+                  <span>GitHub Repository</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 4: Student Management System (OOP) -->
+          <article class="project-card reveal delay-3">
+            <div class="project-img-wrapper">
+              <img src="assets/images/student-mgmt-preview.jpg" onerror="this.onerror=null; this.src='assets/images/student-mgmt-preview.svg';" alt="Student Management System OOP Preview" class="project-img" loading="lazy">
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Student Management System</h3>
+              <div class="project-subtitle">OOP &amp; File-Handling Records System</div>
+              <p class="project-desc">
+                Created a lightweight system for managing student records with full CRUD operations. Applied object-oriented programming (OOP) principles for clean, reusable code and persistent data storage.
+              </p>
+
+              <div class="project-tech-stack">
+                <span class="tech-label">Technologies</span>
+                <div class="tech-tags">
+                  <span class="tech-tag">Python</span>
+                  <span class="tech-tag">OOP</span>
+                  <span class="tech-tag">File Handling</span>
+                  <span class="tech-tag">CRUD</span>
+                </div>
+              </div>
+
+              <div class="project-features">
+                <span class="tech-label">Features</span>
+                <div class="feature-tags">
+                  <span class="feature-tag">OOP Architecture</span>
+                  <span class="feature-tag">CRUD Records</span>
+                  <span class="feature-tag">File Persistence</span>
+                </div>
+              </div>
+
+              <div class="project-actions">
+                <a href="https://github.com/patelmai48/Student-Management-System" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                  </svg>
+                  <span>GitHub Repository</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 5: Password Generator -->
+          <article class="project-card reveal delay-1">
+            <div class="project-img-wrapper">
+              <img src="assets/images/password-gen-preview.svg" alt="Password Generator Preview" class="project-img" loading="lazy">
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Password Generator</h3>
+              <div class="project-subtitle">Cryptographic Security Utility</div>
+              <p class="project-desc">
+                Developed a command-line security tool to generate strong, customizable passwords mixing letters, numbers, and special symbols with customizable length and entropy parameters.
+              </p>
+
+              <div class="project-tech-stack">
+                <span class="tech-label">Technologies</span>
+                <div class="tech-tags">
+                  <span class="tech-tag">Python</span>
+                  <span class="tech-tag">CLI</span>
+                  <span class="tech-tag">Security</span>
+                </div>
+              </div>
+
+              <div class="project-features">
+                <span class="tech-label">Features</span>
+                <div class="feature-tags">
+                  <span class="feature-tag">Custom Entropy</span>
+                  <span class="feature-tag">Symbol Controls</span>
+                  <span class="feature-tag">CLI Interface</span>
+                </div>
+              </div>
+
+              <div class="project-actions">
+                <a href="https://github.com/patelmai48/PasswordGenartion" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                  </svg>
+                  <span>GitHub Repository</span>
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         5. EXPERIENCE & ACTIVITIES
+         ======================================================================= -->
+    <section class="section" id="experience">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Trajectory</span>
+          <h2 class="section-title">Experience &amp; <span class="gradient-text">Activities</span></h2>
+          <p class="section-subtitle">Practical development initiatives, virtual internships, and academic milestones.</p>
+        </div>
+
+        <div class="timeline">
+          <!-- Timeline Item 1: CodeAlpha Internship -->
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <h3 class="timeline-role">Frontend Web Development Virtual Intern</h3>
+                <span class="timeline-period">June 2026</span>
+              </div>
+              <div class="timeline-org">CodeAlpha • Virtual Internship Program</div>
+              <p class="timeline-desc">
+                Engaged as an active participant in frontend development tasks, implementing responsive UI designs, modular code structure, and hands-on JavaScript programming.
+              </p>
+              <div class="timeline-techs">
+                <span class="tech-tag">HTML5</span>
+                <span class="tech-tag">CSS3</span>
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">Responsive Design</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Timeline Item 2: Projects Exploration -->
+          <div class="timeline-item reveal delay-1">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <h3 class="timeline-role">Applied AI &amp; Full-Stack Development</h3>
+                <span class="timeline-period">2024 — Present</span>
+              </div>
+              <div class="timeline-org">Independent &amp; Academic Development</div>
+              <p class="timeline-desc">
+                Architecting and building full-stack applications including VoxAI Studio and AI Email Triage Agent. Focusing on clean modular architecture, backend APIs with Flask, database design with SQLite, and modern responsive frontends.
+              </p>
+              <div class="timeline-techs">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">Flask</span>
+                <span class="tech-tag">Gmail API</span>
+                <span class="tech-tag">Gemini AI</span>
+                <span class="tech-tag">GitHub Actions</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Timeline Item 3: JG University Academic Curriculum -->
+          <div class="timeline-item reveal delay-2">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <h3 class="timeline-role">Integrated M.Sc. IT Academic Curriculum</h3>
+                <span class="timeline-period">June 2024 — August 2029 (Expected)</span>
+              </div>
+              <div class="timeline-org">JG University • Ahmedabad, Gujarat</div>
+              <p class="timeline-desc">
+                Engaged in deep coursework covering software engineering principles, database systems, object-oriented programming, data structures, system design, and emerging AI concepts.
+              </p>
+              <div class="timeline-techs">
+                <span class="tech-tag">Data Structures</span>
+                <span class="tech-tag">System Design</span>
+                <span class="tech-tag">OOP</span>
+                <span class="tech-tag">Database Systems</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         6. EDUCATION SECTION (MATCHING CV)
+         ======================================================================= -->
+    <section class="section" id="education">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Academic Foundation</span>
+          <h2 class="section-title">My <span class="gradient-text">Education</span></h2>
+        </div>
+
+        <div class="education-container reveal">
+          <div class="education-card">
+            <div class="education-top">
+              <div>
+                <h3 class="education-degree">Integrated M.Sc. in Information Technology</h3>
+                <div class="education-school">JG University</div>
+                <div class="education-loc">Ahmedabad, Gujarat</div>
+              </div>
+              <span class="education-badge">June 2024 – August 2029 (Expected)</span>
+            </div>
+
+            <div>
+              <div class="coursework-title">Relevant Core Concepts &amp; Areas</div>
+              <div class="coursework-pills">
+                <span class="coursework-pill">OOP</span>
+                <span class="coursework-pill">Data Structures</span>
+                <span class="coursework-pill">CRUD Operations</span>
+                <span class="coursework-pill">System Design</span>
+                <span class="coursework-pill">SDLC</span>
+                <span class="coursework-pill">Cloud Computing (IaaS/PaaS/SaaS)</span>
+                <span class="coursework-pill">Network Security</span>
+                <span class="coursework-pill">Data Analytics</span>
+                <span class="coursework-pill">Generative AI</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         7. CERTIFICATES SECTION
+         ======================================================================= -->
+    <section class="section" id="certificates">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Credentials</span>
+          <h2 class="section-title">Verified <span class="gradient-text">Certificates</span></h2>
+          <p class="section-subtitle">Verified certifications, job simulations, and internship completion documents.</p>
+        </div>
+
+        <!-- Category Filter Tabs -->
+        <div class="cert-filters reveal">
+          <button class="cert-filter-btn active" data-filter="all">All Certificates (9)</button>
+          <button class="cert-filter-btn" data-filter="internship">Internship (1)</button>
+          <button class="cert-filter-btn" data-filter="simulation">Job Simulations (4)</button>
+          <button class="cert-filter-btn" data-filter="certification">Certifications (4)</button>
+        </div>
+
+        <div class="certificates-grid">
+          <!-- 1. CodeAlpha Internship -->
+          <div class="certificate-card reveal" data-category="internship">
+            <div class="cert-card-top">
+              <div class="cert-header">
+                <span class="cert-category-badge badge-internship">Internship</span>
+                <span class="cert-date">Jun 2026</span>
+              </div>
+              <h3 class="cert-title">Frontend Web Development</h3>
+              <div class="cert-issuer">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                </svg>
+                <span>CodeAlpha</span>
+              </div>
+              <p class="cert-desc">
+                Active participant in CodeAlpha Virtual Internship Program focusing on dedicated frontend development tasks, responsive design, and UI implementations.
+              </p>
+              <div class="cert-skills">
+                <span class="cert-skill-tag">Frontend Dev</span>
+                <span class="cert-skill-tag">UI / Responsive</span>
+                <span class="cert-skill-tag">JavaScript</span>
+              </div>
+            </div>
+
+            <div class="cert-actions">
+              <a href="certificates/Code%20Alpha%20frontend%20developement%20intership%20.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm btn-view-cert" style="width: 100%;">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <line x1="10" y1="14" x2="21" y2="3"></line>
+                </svg>
+                <span>View Certificate</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- 2. Walmart Global Tech Simulation -->
+          <div class="certificate-card reveal delay-1" data-category="simulation">
+            <div class="cert-card-top">
+              <div class="cert-header">
+                <span class="cert-category-badge badge-simulation">Job Simulation</span>
+                <span class="cert-date">Jul 2026</span>
+              </div>
+              <h3 class="cert-title">Advanced Software Engineering Job Simulation</h3>
+              <div class="cert-issuer">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="8" r="7"></circle>
+                  <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+                </svg>
+                <span>Walmart USA (via Forage)</span>
+              </div>
+              <p class="cert-desc">
+                Completed practical hands-on tasks simulating enterprise software development, architectural design, data processing, and relational database modeling.
+              </p>
+              <div class="cert-skills">
+                <span class="cert-skill-tag">Data Structures</span>
+                <span class="cert-skill-tag">Architecture</span>
+                <span class="cert-skill-tag">Relational DB</span>
+              </div>
+            </div>
+
+            <div class="cert-actions">
+              <a href="certificates/Walmart%20global%20tech%20advance%20software%20engineering%20.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm btn-view-cert" style="width: 100%;">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <line x1="10" y1="14" x2="21" y2="3"></line>
+                </svg>
+                <span>View Certificate</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- 3. Deloitte Technology Simulation -->
+          <div class="certificate-card reveal delay-2" data-category="simulation">
+            <div class="cert-card-top">
+              <div class="cert-header">
+                <span class="cert-category-badge badge-simulation">Job Simulation</span>
+                <span class="cert-date">Jul 2026</span>
+              </div>
+              <h3 class="cert-title">Technology Job Simulation</h3>
+              <div class="cert-issuer">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="8" r="7"></circle>
+                  <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+                </svg>
+                <span>Deloitte Australia (via Forage)</span>
+              </div>
+              <p class="cert-desc">
+                Completed practical corporate technology tasks focusing on development methodologies, software coding practices, and technology solutions delivery.
+              </p>
+              <div class="cert-skills">
+                <span class="cert-skill-tag">Coding</span>
+                <span class="cert-skill-tag">Development</span>
+                <span class="cert-skill-tag">Problem Solving</span>
+              </div>
+            </div>
+
+            <div class="cert-actions">
+              <a href="certificates/Deloitte%20technology%20job%20simulation%20.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm btn-view-cert" style="width: 100%;">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <line x1="10" y1="14" x2="21" y2="3"></line>
+                </svg>
+                <span>View Certificate</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- 4. Tata GenAI Data Analytics Simulation -->
+          <div class="certificate-card reveal" data-category="simulation">
+            <div class="cert-card-top">
+              <div class="cert-header">
+                <span class="cert-category-badge badge-simulation">Job Simulation</span>
+                <span class="cert-date">Jul 2026</span>
+              </div>
+              <h3 class="cert-title">GenAI Powered Data Analytics Job Simulation</h3>
+              <div class="cert-issuer">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="8" r="7"></circle>
+                  <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+                </svg>
+                <span>Tata iQ (via Forage)</span>
+              </div>
+              <p class="cert-desc">
+                Completed simulation tasks in exploratory data analysis, risk profiling, AI delinquency predictive modeling, and data storytelling business reports.
+              </p>
+              <div class="cert-skills">
+                <span class="cert-skill-tag">GenAI Analytics</span>
+                <span class="cert-skill-tag">EDA</span>
+                <span class="cert-skill-tag">Data Storytelling</span>
+              </div>
+            </div>
+
+            <div class="cert-actions">
+              <a href="certificates/Tata%20GenAi%20data%20analytics%20jo%20simulation%20.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm btn-view-cert" style="width: 100%;">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <line x1="10" y1="14" x2="21" y2="3"></line>
+                </svg>
+                <span>View Certificate</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- 5. Deloitte Cyber Simulation -->
+          <div class="certificate-card reveal delay-1" data-category="simulation">
+            <div class="cert-card-top">
+              <div class="cert-header">
+                <span class="cert-category-badge badge-simulation">Job Simulation</span>
+                <span class="cert-date">Jul 2026</span>
+              </div>
+              <h3 class="cert-title">Cybersecurity Job Simulation</h3>
+              <div class="cert-issuer">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="8" r="7"></circle>
+                  <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+                </svg>
+                <span>Deloitte Australia (via Forage)</span>
+              </div>
+              <p class="cert-desc">
+                Completed cybersecurity job simulation covering foundational cybersecurity principles, risk mitigation workflows, log analysis, and incident response.
+              </p>
+              <div class="cert-skills">
+                <span class="cert-skill-tag">Cyber Security</span>
+                <span class="cert-skill-tag">Risk Assessment</span>
+                <span class="cert-skill-tag">Incident Response</span>
+              </div>
+            </div>
+
+            <div class="cert-actions">
+              <a href="certificates/Deloitte%20cyber%20job%20simulation%20.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm btn-view-cert" style="width: 100%;">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <line x1="10" y1="14" x2="21" y2="3"></line>
+                </svg>
+                <span>View Certificate</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- 6. Google Cloud Introduction to Cloud Computing -->
+          <div class="certificate-card reveal delay-2" data-category="certification">
+            <div class="cert-card-top">
+              <div class="cert-header">
+                <span class="cert-category-badge badge-certification">Certification</span>
+                <span class="cert-date">Jul 2026</span>
+              </div>
+              <h3 class="cert-title">Introduction to Cloud Computing</h3>
+              <div class="cert-issuer">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"></path>
+                </svg>
+                <span>Simplilearn</span>
+              </div>
+              <p class="cert-desc">
+                Verified course completion in cloud computing architecture, IaaS/PaaS/SaaS paradigms, cloud deployment models, and scalability fundamentals.
+              </p>
+              <div class="cert-skills">
+                <span class="cert-skill-tag">Cloud Computing</span>
+                <span class="cert-skill-tag">Infrastructure</span>
+                <span class="cert-skill-tag">SaaS / IaaS</span>
+              </div>
+            </div>
+
+            <div class="cert-actions">
+              <a href="certificates/Google%20cloud%20introduction%20to%20Cloud%20computing%20.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm btn-view-cert" style="width: 100%;">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <line x1="10" y1="14" x2="21" y2="3"></line>
+                </svg>
+                <span>View Certificate</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- 7. Google Cloud Trust and Security -->
+          <div class="certificate-card reveal" data-category="certification">
+            <div class="cert-card-top">
+              <div class="cert-header">
+                <span class="cert-category-badge badge-certification">Certification</span>
+                <span class="cert-date">May 2026</span>
+              </div>
+              <h3 class="cert-title">Trust and Security with Google Cloud</h3>
+              <div class="cert-issuer">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                </svg>
+                <span>Simplilearn (Powered by Google Cloud)</span>
+              </div>
+              <p class="cert-desc">
+                Course declaration of completion on Google Cloud security posture, data privacy principles, compliance frameworks, and cloud trust architectures.
+              </p>
+              <div class="cert-skills">
+                <span class="cert-skill-tag">Google Cloud</span>
+                <span class="cert-skill-tag">Cloud Security</span>
+                <span class="cert-skill-tag">Data Trust</span>
+              </div>
+            </div>
+
+            <div class="cert-actions">
+              <a href="certificates/Google%20cloud%20trust%20and%20security%20.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm btn-view-cert" style="width: 100%;">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <line x1="10" y1="14" x2="21" y2="3"></line>
+                </svg>
+                <span>View Certificate</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- 8. One Roadmap Frontend Development -->
+          <div class="certificate-card reveal delay-1" data-category="certification">
+            <div class="cert-card-top">
+              <div class="cert-header">
+                <span class="cert-category-badge badge-certification">Certification</span>
+                <span class="cert-date">Jul 2026</span>
+              </div>
+              <h3 class="cert-title">Frontend Developer Certification</h3>
+              <div class="cert-issuer">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="16 18 22 12 16 6"></polyline>
+                  <polyline points="8 6 2 12 8 18"></polyline>
+                </svg>
+                <span>OneRoadmap</span>
+              </div>
+              <p class="cert-desc">
+                Certificate of Achievement for passing the One Roadmap Skill Certification Test in Frontend Development (Verification ID: CERT-8663CF83).
+              </p>
+              <div class="cert-skills">
+                <span class="cert-skill-tag">Frontend Dev</span>
+                <span class="cert-skill-tag">Skill Test</span>
+                <span class="cert-skill-tag">Web Standards</span>
+              </div>
+            </div>
+
+            <div class="cert-actions">
+              <a href="certificates/one%20roadmap%20frontend%20development%20.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm btn-view-cert" style="width: 100%;">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <line x1="10" y1="14" x2="21" y2="3"></line>
+                </svg>
+                <span>View Certificate</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- 9. Outskill Generative AI Mastermind -->
+          <div class="certificate-card reveal delay-2" data-category="certification">
+            <div class="cert-card-top">
+              <div class="cert-header">
+                <span class="cert-category-badge badge-certification">Certification</span>
+                <span class="cert-date">May 2026</span>
+              </div>
+              <h3 class="cert-title">Exploring Generative AI &amp; Design</h3>
+              <div class="cert-issuer">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+                </svg>
+                <span>Outskill</span>
+              </div>
+              <p class="cert-desc">
+                Certificate of Completion for successfully completing the Generative AI Mastermind curriculum, exploring modern GenAI tools, prompt engineering, and workflows.
+              </p>
+              <div class="cert-skills">
+                <span class="cert-skill-tag">Generative AI</span>
+                <span class="cert-skill-tag">AI Workflows</span>
+                <span class="cert-skill-tag">Prompting</span>
+              </div>
+            </div>
+
+            <div class="cert-actions">
+              <a href="certificates/Outskill%20Generative%20ai%20mastermind%20.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm btn-view-cert" style="width: 100%;">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <line x1="10" y1="14" x2="21" y2="3"></line>
+                </svg>
+                <span>View Certificate</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         8. RESUME CTA
+         ======================================================================= -->
+    <section class="section">
+      <div class="container">
+        <div class="cta-banner reveal">
+          <h2 class="cta-title">Interested in working together?</h2>
+          <p class="cta-text">I'm currently open to internship and entry-level opportunities.</p>
+          <div class="cta-actions">
+            <a href="resume/MahiPatel_CV.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-lg" aria-label="View Resume">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                <polyline points="14 2 14 8 20 8"></polyline>
+                <line x1="16" y1="13" x2="8" y2="13"></line>
+                <line x1="16" y1="17" x2="8" y2="17"></line>
+              </svg>
+              <span>View Resume</span>
+            </a>
+            <a href="#contact" class="btn btn-secondary btn-lg">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+              </svg>
+              <span>Contact Me</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         9. CONTACT SECTION (MATCHING CV)
+         ======================================================================= -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Get in Touch</span>
+          <h2 class="section-title">Let's <span class="gradient-text">Connect</span></h2>
+          <p class="section-subtitle">Have an opportunity, project, or collaboration in mind? Feel free to reach out.</p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Left: Contact Details Cards -->
+          <div class="contact-info reveal">
+            <!-- Email -->
+            <a href="mailto:patelmai82@gmail.com" class="contact-card" title="Click to email (patelmai82@gmail.com)">
+              <div class="contact-card-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                  <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+              </div>
+              <div class="contact-card-text">
+                <span class="contact-card-label">Email</span>
+                <span class="contact-card-val">patelmai82@gmail.com</span>
+              </div>
+            </a>
+
+            <!-- LinkedIn -->
+            <a href="https://linkedin.com/in/mahi-patel-865b97318" target="_blank" rel="noopener noreferrer" class="contact-card" title="LinkedIn Profile">
+              <div class="contact-card-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                  <rect x="2" y="9" width="4" height="12"></rect>
+                  <circle cx="4" cy="4" r="2"></circle>
+                </svg>
+              </div>
+              <div class="contact-card-text">
+                <span class="contact-card-label">LinkedIn</span>
+                <span class="contact-card-val">linkedin.com/in/mahi-patel-865b97318</span>
+              </div>
+            </a>
+
+            <!-- LeetCode -->
+            <a href="https://leetcode.com/u/mai_15" target="_blank" rel="noopener noreferrer" class="contact-card" title="LeetCode Profile (mai_15)">
+              <div class="contact-card-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M13.483 0a1.374 1.374 0 0 0-.961.438L7.116 6.226l-3.854 4.126a5.266 5.266 0 0 0-1.209 2.104 5.35 5.35 0 0 0-.125.513 5.527 5.527 0 0 0 .062 2.362 5.83 5.83 0 0 0 .349 1.017 5.938 5.938 0 0 0 1.271 1.818l4.277 4.193.039.038c2.248 2.165 5.852 2.133 8.063-.074l2.396-2.392c.54-.54.54-1.414.003-1.955a1.378 1.378 0 0 0-1.951-.003l-2.396 2.392a3.021 3.021 0 0 1-4.205.038l-.02-.019-4.276-4.193c-.652-.64-.972-1.469-.948-2.263a2.68 2.68 0 0 1 .666-1.795l3.86-4.133 5.398-5.783a1.377 1.377 0 0 0-.005-1.952A1.374 1.374 0 0 0 13.483 0zm-2.88 7.218a1.38 1.38 0 0 0-1.208.707 1.381 1.381 0 0 0 .238 1.636l4.269 4.269a1.379 1.379 0 0 0 1.951 0 1.38 1.38 0 0 0 0-1.951l-4.269-4.269a1.365 1.365 0 0 0-.981-.392z"/>
+                </svg>
+              </div>
+              <div class="contact-card-text">
+                <span class="contact-card-label">LeetCode</span>
+                <span class="contact-card-val">leetcode.com/u/mai_15</span>
+              </div>
+            </a>
+
+            <!-- GitHub -->
+            <a href="https://github.com/patelmai48" target="_blank" rel="noopener noreferrer" class="contact-card" title="GitHub Profile">
+              <div class="contact-card-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                </svg>
+              </div>
+              <div class="contact-card-text">
+                <span class="contact-card-label">GitHub</span>
+                <span class="contact-card-val">github.com/patelmai48</span>
+              </div>
+            </a>
+
+            <!-- Location -->
+            <div class="contact-card" data-copy="Gujarat, India" style="cursor: pointer;" title="Click to copy location">
+              <div class="contact-card-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                  <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+              </div>
+              <div class="contact-card-text">
+                <span class="contact-card-label">Location</span>
+                <span class="contact-card-val">Gujarat, India</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right: Interactive Contact Form -->
+          <div class="contact-form-container reveal delay-1">
+            <form id="contactForm" class="contact-form" novalidate>
+              <div class="form-group">
+                <label for="senderName" class="form-label">Your Name</label>
+                <input type="text" id="senderName" class="form-input" placeholder="e.g. Alex Johnson" required>
+              </div>
+
+              <div class="form-group">
+                <label for="senderEmail" class="form-label">Your Email</label>
+                <input type="email" id="senderEmail" class="form-input" placeholder="e.g. alex@example.com" required>
+              </div>
+
+              <div class="form-group">
+                <label for="senderSubject" class="form-label">Subject</label>
+                <input type="text" id="senderSubject" class="form-input" placeholder="e.g. Internship Opportunity / Project Collaboration" required>
+              </div>
+
+              <div class="form-group">
+                <label for="senderMessage" class="form-label">Message</label>
+                <textarea id="senderMessage" class="form-textarea" placeholder="Write your message here..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-lg" style="width: 100%;">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="22" y1="2" x2="11" y2="13"></line>
+                  <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                </svg>
+                <span>Send Message</span>
+              </button>
+
+              <p class="form-disclaimer">
+                💡 Submitting this form prepares a pre-filled email to <strong>patelmai82@gmail.com</strong> in your mail client.
+              </p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- =========================================================================
+       10. FOOTER
+       ========================================================================= -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <h3>Mahi Patel</h3>
+          <p class="footer-tagline">Integrated M.Sc. IT • Full-Stack Developer • Tech Enthusiast</p>
+        </div>
+
+        <div class="footer-links">
+          <a href="https://github.com/patelmai48" target="_blank" rel="noopener noreferrer" class="btn-icon" aria-label="GitHub Profile">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+            </svg>
+          </a>
+          <a href="https://linkedin.com/in/mahi-patel-865b97318" target="_blank" rel="noopener noreferrer" class="btn-icon" aria-label="LinkedIn Profile">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+              <rect x="2" y="9" width="4" height="12"></rect>
+              <circle cx="4" cy="4" r="2"></circle>
+            </svg>
+          </a>
+          <a href="https://leetcode.com/u/mai_15" target="_blank" rel="noopener noreferrer" class="btn-icon" aria-label="LeetCode Profile (mai_15)" title="LeetCode Profile">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M13.483 0a1.374 1.374 0 0 0-.961.438L7.116 6.226l-3.854 4.126a5.266 5.266 0 0 0-1.209 2.104 5.35 5.35 0 0 0-.125.513 5.527 5.527 0 0 0 .062 2.362 5.83 5.83 0 0 0 .349 1.017 5.938 5.938 0 0 0 1.271 1.818l4.277 4.193.039.038c2.248 2.165 5.852 2.133 8.063-.074l2.396-2.392c.54-.54.54-1.414.003-1.955a1.378 1.378 0 0 0-1.951-.003l-2.396 2.392a3.021 3.021 0 0 1-4.205.038l-.02-.019-4.276-4.193c-.652-.64-.972-1.469-.948-2.263a2.68 2.68 0 0 1 .666-1.795l3.86-4.133 5.398-5.783a1.377 1.377 0 0 0-.005-1.952A1.374 1.374 0 0 0 13.483 0zm-2.88 7.218a1.38 1.38 0 0 0-1.208.707 1.381 1.381 0 0 0 .238 1.636l4.269 4.269a1.379 1.379 0 0 0 1.951 0 1.38 1.38 0 0 0 0-1.951l-4.269-4.269a1.365 1.365 0 0 0-.981-.392z"/>
+            </svg>
+          </a>
+          <a href="mailto:patelmai82@gmail.com" class="btn-icon" aria-label="Email Mahi Patel (patelmai82@gmail.com)" title="Send Email">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+              <polyline points="22,6 12,13 2,6"></polyline>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>&copy; 2026 Mahi Patel. All rights reserved.</div>
+        <div>Built with semantic HTML5, modern CSS &amp; clean JavaScript.</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- =========================================================================
+       11. TOAST NOTIFICATION
+       ========================================================================= -->
+  <div class="toast" id="toastNotification" role="status" aria-live="polite">
+    <span class="toast-icon">✦</span>
+    <span class="toast-message" id="toastMessage">Notification message</span>
+  </div>
+
+  <!-- Scripts -->
+  <script src="js/main.js"></script>
+  <script src="js/contact.js"></script>
+</body>
+</html>
