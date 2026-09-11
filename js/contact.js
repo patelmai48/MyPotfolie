@@ -64,7 +64,7 @@ document.addEventListener('DOMContentLoaded', () => {
       }
 
       // Open user's default email client with pre-filled parameters
-      const recipient = 'patelmai82@gmail.com';
+      const recipient = 'pmahi4834@gmail.com';
       const mailtoUrl = `mailto:${recipient}?subject=${encodeURIComponent(
         `[Portfolio Contact] ${subject} - from ${name}`
       )}&body=${encodeURIComponent(
